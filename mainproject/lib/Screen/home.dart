@@ -24,6 +24,9 @@ class HomePage extends StatelessWidget{
               Text("Your Personal management and planning solution"),
               SizedBox(height: screenHeight * 0.02),
               ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                    primary: Colors.black
+                  ),
                   onPressed: (){
                     Navigator.push(
                         context,
